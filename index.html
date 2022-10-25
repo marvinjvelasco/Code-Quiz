@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Coding Quiz</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+
+<!-- Nav bar that links to high scores and displays time left -->
+  <header>
+    <h1>Coding Quiz</h1>
+    <nav>
+      <ul>
+        <li></li><a href="#high-scores">High Scores</a></li>
+        <li>
+          <div id="timer"></div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Main area that first displays quiz rules -->
+  <main id="rules">
+    <h1>Coding Quiz!</h1>
+      <p class="gameRules">Answer the questions within the time limit! Beware, each wrong answer will take away 10 seconds!</p>
+    <div class="#start-game">
+      <button id="start" class="btn">Start Quiz</button>
+    </div>
+  </main>
+
+  <div id="questionBox" class="hide">
+    <div class="questions"></div>
+    <div id="answerButtons" class="btn-grid">
+      <button class="btn">Answer 1</button>
+      <button class="btn">Answer 2</button>
+      <button class="btn">Answer 3</button>
+      <button class="btn">Answer 4</button>
+    </div>  
+  </main>
+
+  <script src="./assets/Javascript/script.js"></script>
+</body>
+</html>
